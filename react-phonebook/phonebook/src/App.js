@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import PhoneBook from './components/phonebook';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />     
+           <PhoneBook />
       </header>
     </div>
   );
