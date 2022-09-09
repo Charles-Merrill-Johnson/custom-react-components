@@ -38,9 +38,9 @@ const ContactForm = (props) => {
             <br />
             <label>Phone Number:</label>
             <br />
-            <input />
+            <input className="phoneNumber" name="phoneNumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
             <br />
-            <input />
+            <input className="submitButton" type="submit" value="Add Contact"/>
         </form>
     )
 };
